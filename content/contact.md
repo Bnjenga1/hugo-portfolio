@@ -3,17 +3,20 @@ title: "Contact"
 url: "/contact/"
 ---
 
-<form action="https://formspree.io/f/xanjlgaw" method="POST">
+<form action="https://formspree.io/f/xanjlgaw" method="POST" style="display: flex; flex-direction: column; max-width: 400px; gap: 1em;">
 
-  <p><label for="name">Name:</label><br>
-  <input type="text" name="name" required></p>
+  <label>
+    Your email:
+    <input type="email" name="email" required style="width: 100%; padding: 8px; background-color: #222; color: #eee; border: 1px solid #444;">
+  </label>
 
-  <p><label for="email">Email:</label><br>
-  <input type="email" name="_replyto" required></p>
+  <label>
+    Your message:
+    <textarea name="message" required rows="6" style="width: 100%; padding: 8px; background-color: #222; color: #eee; border: 1px solid #444;"></textarea>
+  </label>
 
-  <p><label for="message">Message:</label><br>
-  <textarea name="message" rows="5" cols="30" required></textarea></p>
+  <button type="submit" style="padding: 10px; background-color: #444; color: #fff; border: none; cursor: pointer;">
+    Send
+  </button>
 
-  <p><button type="submit">Send</button></p>
-  
 </form>
