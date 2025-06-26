@@ -1,0 +1,42 @@
+name: Deploy Hugo site to S3
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+
+    - name: Build Hugo site
+      run: hugo --minify
+
+    - name: Sync to S3
+      uses: jakejarvis/s3-sync-action@v0.5.1
+      with:
+        args: --delete
+      env:
+        AWS_S3_BUCKET: brians-portfolio-site
+        AWS_REGION: us-west-2
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        SOURCE_DIR: public
+
+    - name: Invalidate CloudFront cache
+      uses: chetan/invalidate-cloudfront-action@v2
+      env:
+        DISTRIBUTION: E3EXDTLSLYRI2F
+        PATHS: '/*'
+        AWS_REGION: us-west-2
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
