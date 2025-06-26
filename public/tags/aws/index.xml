@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AWS on Brian Njenga Mwaura</title>
+    <link>https://www.brianmwaura.com/tags/aws/</link>
+    <description>Recent content in AWS on Brian Njenga Mwaura</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.brianmwaura.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🖥️ Hosting WordPress on AWS EC2</title>
+      <link>https://www.brianmwaura.com/projects/aws-cloud-solutions/deploying-wordpress-on-ec2/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.brianmwaura.com/projects/aws-cloud-solutions/deploying-wordpress-on-ec2/</guid>
+      <description>&lt;p&gt;This project documents how I hosted a WordPress blog on an AWS EC2 instance using the free tier. I manually set up Apache, PHP, MariaDB, and WordPress on an Amazon Linux 2023 instance.&lt;/p&gt;
+&lt;p&gt;✅ Tools Used&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS EC2 (Amazon Linux 2023)&lt;/li&gt;
+&lt;li&gt;PuTTY (SSH client)&lt;/li&gt;
+&lt;li&gt;WordPress&lt;/li&gt;
+&lt;li&gt;Apache, PHP, MariaDB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;🔧 &lt;strong&gt;1. Launch EC2 Instance&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chose Amazon Linux 2023&lt;/li&gt;
+&lt;li&gt;Instance type: t2.micro&lt;/li&gt;
+&lt;li&gt;Set key pair (used later for SSH)&lt;/li&gt;
+&lt;li&gt;Placed EC2 in a public subnet with auto-assigned public IP&lt;/li&gt;
+&lt;li&gt;Security group rules:
+-Allow SSH (port 22) from your IP
+-Allow HTTP (port 80) from anywhere&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;🔑 &lt;strong&gt;2. SSH into EC2 Instance&lt;/strong&gt;
+Using PuTTY:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🌐 Hosting a Static Website on AWS S3</title>
+      <link>https://www.brianmwaura.com/projects/aws-cloud-solutions/aws-s3-static-hosting/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.brianmwaura.com/projects/aws-cloud-solutions/aws-s3-static-hosting/</guid>
+      <description>&lt;p&gt;📝 &lt;strong&gt;Project Overview&lt;/strong&gt;&lt;br&gt;
+In this project, I deployed a fully functional static website using Amazon S3 (Simple Storage Service). This task introduced me to cloud-based storage, object permissions, and static site hosting—core skills for cloud computing and web deployment.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;🎯 &lt;strong&gt;Objectives&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn how to create and configure an S3 bucket&lt;/li&gt;
+&lt;li&gt;Upload and serve static content (HTML, CSS)&lt;/li&gt;
+&lt;li&gt;Set object-level permissions for public access&lt;/li&gt;
+&lt;li&gt;Enable static website hosting on S3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;🛠️ &lt;strong&gt;Tools &amp;amp; Technologies&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

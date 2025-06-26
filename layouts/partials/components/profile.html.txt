@@ -1,0 +1,24 @@
+{{- with site.Params.profileMode }}
+  <div class="profile">
+    {{ if .imageUrl }}
+      <div class="profile__image">
+        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default site.Title }}">
+      </div>
+    {{ end }}
+    <h1 class="profile__name">{{ .name }}</h1>
+    <span class="profile__subtitle">{{ .subtitle }}</span>
+
+    {{ if .content }}
+      <div class="profile__content">{{ .content | markdownify }}</div>
+    {{ end }}
+
+    {{ with .buttons }}
+      <div class="profile__buttons">
+        {{ range . }}
+          {{ $target := cond (strings.HasPrefix .url "http") "_blank" "_self" }}
+          <a class="button" href="{{ .url | absURL }}" target="{{ $target }}" rel="noopener noreferrer">{{ .name }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{- end }}

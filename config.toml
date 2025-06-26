@@ -1,0 +1,48 @@
+baseURL = "https://www.brianmwaura.com/"
+title = "Brian Njenga Mwaura"
+theme = "PaperMod"
+languageCode = "en-us"
+
+[params]
+  author = "Brian Njenga Mwaura"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+[params.profileMode]
+  enabled = true
+  name = "Brian Mwaura"
+  subtitle = "Data Analyst | Statistician | AWS Certified | R & Python Enthusiast | Forex Market Analyst"
+  imageUrl = "images/profile.jpg"
+
+
+  [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "/projects/"
+
+  [[params.profileMode.buttons]]
+    name = "Blog"
+    url = "/posts/"
+
+  [[params.profileMode.buttons]]
+    name = "GitHub"
+    url = "https://github.com/Bnjenga1"
+    post = "\" target=\"_blank"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Blog"
+  url = "/posts/"
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About Me"
+  url = "/posts/about-me/"
+  weight = 1
+
