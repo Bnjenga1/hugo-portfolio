@@ -31,15 +31,6 @@ googleAnalytics = "G-4ZSQ0MJWVK"
     url = "https://github.com/Bnjenga1"
     post = "\" target=\"_blank"
 
-[[menu.main]]
-  identifier = "posts"
-  name = "Blog"
-  url = "/posts/"
-
-[[menu.main]]
-  identifier = "projects"
-  name = "Projects"
-  url = "/projects/"
 
 [[menu.main]]
   identifier = "about"
@@ -47,3 +38,7 @@ googleAnalytics = "G-4ZSQ0MJWVK"
   url = "/posts/about-me/"
   weight = 1
 
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
