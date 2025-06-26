@@ -3,6 +3,8 @@ title = "Brian Njenga Mwaura"
 theme = "PaperMod"
 languageCode = "en-us"
 
+googleAnalytics = "G-4ZSQ0MJWVK"
+
 [params]
   author = "Brian Njenga Mwaura"
   ShowReadingTime = true
