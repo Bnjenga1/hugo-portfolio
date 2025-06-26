@@ -2,7 +2,6 @@ baseURL = "https://www.brianmwaura.com/"
 title = "Brian Njenga Mwaura"
 theme = "PaperMod"
 languageCode = "en-us"
-
 googleAnalytics = "G-4ZSQ0MJWVK"
 
 [params]
