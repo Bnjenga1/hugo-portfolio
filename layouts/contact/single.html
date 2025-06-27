@@ -1,6 +1,22 @@
 {{ define "main" }}
 <h1>Contact</h1>
 
+<style>
+  input::placeholder,
+  textarea::placeholder {
+    color: #111; /* default for light mode */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    input::placeholder,
+    textarea::placeholder {
+      color: #eee; /* override for dark mode */
+    }
+  }
+</style>
+
+
+
 <div id="form-wrapper" style="max-width: 400px;">
   <form id="contact-form" style="display: flex; flex-direction: column; gap: 1em;">
 
