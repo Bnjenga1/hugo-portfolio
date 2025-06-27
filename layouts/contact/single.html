@@ -1,68 +1,7 @@
 {{ define "main" }}
 <h1>Contact</h1>
 
-<style>
-  .form-wrapper {
-    max-width: 500px;
-    margin-top: 1em;
-  }
-
-  .form-field {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    border: 1px solid;
-    font-size: 16px;
-  }
-
-  .submit-button {
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-
-  @media (prefers-color-scheme: light) {
-    .form-field {
-      background-color: #fff;
-      color: #000;
-      border-color: #ccc;
-    }
-
-    .form-field::placeholder {
-      color: #666;
-    }
-
-    .submit-button {
-      background-color: #222;
-      color: #fff;
-    }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .form-field {
-      background-color: #1a1a1a;
-      color: #fff;
-      border-color: #444;
-    }
-
-    .form-field::placeholder {
-      color: #aaa;
-    }
-
-    .submit-button {
-      background-color: #fff;
-      color: #000;
-    }
-  }
-
-  #thank-you {
-    color: limegreen;
-    font-weight: bold;
-  }
-</style>
+<link rel="stylesheet" href="/css/contact.css">
 
 <div class="form-wrapper">
   <form id="contact-form" style="display: flex; flex-direction: column;">
