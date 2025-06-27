@@ -3,25 +3,54 @@ title: "Contact"
 url: "/contact/"
 ---
 
-<form action="https://formspree.io/f/xanjlgaw" method="POST" style="display: flex; flex-direction: column; max-width: 400px; gap: 1em;">
+<div id="form-wrapper" style="max-width: 400px;">
+  <form id="contact-form" style="display: flex; flex-direction: column; gap: 1em;">
 
-  <label>
-    Your name:
-    <input type="text" name="name" required style="width: 100%; padding: 8px; background-color: #222; color: #eee; border: 1px solid #444;">
-  </label>
+    <label>
+      Your name:
+      <input type="text" name="name" required style="width: 100%; padding: 8px; background-color: #222; color: #eee; border: 1px solid #444;">
+    </label>
 
-  <label>
-    Your email:
-    <input type="email" name="email" required style="width: 100%; padding: 8px; background-color: #222; color: #eee; border: 1px solid #444;">
-  </label>
+    <label>
+      Your email:
+      <input type="email" name="email" required style="width: 100%; padding: 8px; background-color: #222; color: #eee; border: 1px solid #444;">
+    </label>
 
-  <label>
-    Your message:
-    <textarea name="message" required rows="6" style="width: 100%; padding: 8px; background-color: #222; color: #eee; border: 1px solid #444;"></textarea>
-  </label>
+    <label>
+      Your message:
+      <textarea name="message" required rows="6" style="width: 100%; padding: 8px; background-color: #222; color: #eee; border: 1px solid #444;"></textarea>
+    </label>
 
-  <button type="submit" style="padding: 10px; background-color: #444; color: #fff; border: none; cursor: pointer;">
-    Send
-  </button>
+    <button type="submit" style="padding: 10px; background-color: #444; color: #fff; border: none; cursor: pointer;">
+      Send
+    </button>
 
-</form>
+  </form>
+
+  <div id="thank-you" style="display: none; color: #0f0; margin-top: 1em;">
+    ✅ Thank you! Redirecting to homepage...
+  </div>
+</div>
+
+<script>
+document.getElementById("contact-form").addEventListener("submit", async function(e) {
+  e.preventDefault();
+
+  const form = e.target;
+  const data = new FormData(form);
+
+  const response = await fetch("https://formspree.io/f/xanjlgaw", {
+    method: "POST",
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  });
+
+  if (response.ok) {
+    form.style.display = "none";
+    document.getElementById("thank-you").style.display = "block";
+    setTimeout(() => window.location.href = "/", 5000); // redirect after 5 seconds
+  } else {
+    alert("Oops! Something went wrong. Please try again.");
+  }
+});
+</script>
