@@ -2,10 +2,6 @@
 <h1>Contact</h1>
 
 <style>
-  body {
-    font-family: sans-serif;
-  }
-
   .form-wrapper {
     max-width: 500px;
     margin-top: 1em;
@@ -18,18 +14,6 @@
     margin-bottom: 15px;
     border: 1px solid;
     font-size: 16px;
-  }
-
-  .submit-button {
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-
-  /* Default: light theme */
-  .form-field {
     background-color: #fff;
     color: #000;
     border-color: #ccc;
@@ -40,11 +24,15 @@
   }
 
   .submit-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
     background-color: #222;
     color: #fff;
   }
 
-  /* Override for dark theme */
   @media (prefers-color-scheme: dark) {
     .form-field {
       background-color: #1a1a1a;
@@ -70,13 +58,9 @@
 
 <div class="form-wrapper">
   <form id="contact-form" style="display: flex; flex-direction: column;">
-
     <input type="text" name="name" required class="form-field" placeholder="Your name">
-
     <input type="email" name="email" required class="form-field" placeholder="Your email">
-
     <textarea name="message" required rows="6" class="form-field" placeholder="Your message"></textarea>
-
     <button type="submit" class="submit-button">Send</button>
   </form>
 
