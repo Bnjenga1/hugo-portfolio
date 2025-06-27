@@ -2,66 +2,87 @@
 <h1>Contact</h1>
 
 <style>
-  .themed-input {
+  body {
+    font-family: sans-serif;
+  }
+
+  .form-wrapper {
+    max-width: 500px;
+    margin-top: 1em;
+  }
+
+  .form-field {
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    color: #111;
-  }
-
-  .themed-input::placeholder {
-    color: #666;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .themed-input {
-      background-color: #222;
-      color: #eee;
-      border: 1px solid #444;
-    }
-
-    .themed-input::placeholder {
-      color: #aaa;
-    }
-
-    .submit-button {
-      background-color: #444;
-      color: #fff;
-    }
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    font-size: 16px;
   }
 
   .submit-button {
     padding: 10px;
     border: none;
     cursor: pointer;
-    background-color: #ddd;
-    color: #111;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  /* Light theme */
+  @media (prefers-color-scheme: light) {
+    .form-field {
+      background-color: #fff;
+      color: #000;
+      border-color: #ccc;
+    }
+
+    .form-field::placeholder {
+      color: #666;
+    }
+
+    .submit-button {
+      background-color: #222;
+      color: #fff;
+    }
+  }
+
+  /* Dark theme */
+  @media (prefers-color-scheme: dark) {
+    .form-field {
+      background-color: #1c1c1c;
+      color: #eee;
+      border-color: #444;
+    }
+
+    .form-field::placeholder {
+      color: #aaa;
+    }
+
+    .submit-button {
+      background-color: #fff;
+      color: #111;
+    }
+  }
+
+  #thank-you {
+    color: limegreen;
+    font-weight: bold;
   }
 </style>
 
-<div id="form-wrapper" style="max-width: 400px;">
-  <form id="contact-form" style="display: flex; flex-direction: column; gap: 1em;">
+<div class="form-wrapper">
+  <form id="contact-form" style="display: flex; flex-direction: column;">
 
-    <label>
-      Your name:
-      <input type="text" name="name" required class="themed-input" placeholder="Your name">
-    </label>
+    <input type="text" name="name" required class="form-field" placeholder="Your name">
 
-    <label>
-      Your email:
-      <input type="email" name="email" required class="themed-input" placeholder="you@example.com">
-    </label>
+    <input type="email" name="email" required class="form-field" placeholder="Your email">
 
-    <label>
-      Your message:
-      <textarea name="message" required rows="6" class="themed-input" placeholder="Type your message..."></textarea>
-    </label>
+    <textarea name="message" required rows="6" class="form-field" placeholder="Your message"></textarea>
 
     <button type="submit" class="submit-button">Send</button>
   </form>
 
-  <div id="thank-you" style="display: none; color: #0f0; margin-top: 1em;">
+  <div id="thank-you" style="display: none; margin-top: 1em;">
     ✅ Thank you! Redirecting to homepage...
   </div>
 </div>
