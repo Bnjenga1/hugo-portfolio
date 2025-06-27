@@ -1,22 +1,65 @@
 {{ define "main" }}
-<p style="color: red;">TEST: Contact page is rendering.</p>
+<h1>Contact Me</h1>
 
-<h1>Contact</h1>
+<p>You can reach me directly at <a href="mailto:info@brianmwaura.com">info@brianmwaura.com</a> or use the form below.</p>
 
-<link rel="stylesheet" href="/css/contact.css">
+<div id="form-wrapper" style="max-width: 500px; margin-top: 1.5rem;">
+  <form id="contact-form" style="display: flex; flex-direction: column; gap: 1em;">
+    <label>
+      Your name:
+      <input type="text" name="name" required class="contact-input" placeholder="e.g. John Doe">
+    </label>
 
-<div class="form-wrapper">
-  <form id="contact-form" style="display: flex; flex-direction: column;">
-    <input type="text" name="name" required class="form-field" placeholder="Your name">
-    <input type="email" name="email" required class="form-field" placeholder="Your email">
-    <textarea name="message" required rows="6" class="form-field" placeholder="Your message"></textarea>
-    <button type="submit" class="submit-button">Send</button>
+    <label>
+      Your email:
+      <input type="email" name="email" required class="contact-input" placeholder="e.g. john@example.com">
+    </label>
+
+    <label>
+      Your message:
+      <textarea name="message" required rows="5" class="contact-input" placeholder="Write your message here..."></textarea>
+    </label>
+
+    <button type="submit" class="contact-button">Send</button>
   </form>
 
-  <div id="thank-you" style="display: none; margin-top: 1em;">
+  <div id="thank-you" style="display: none; color: #0f0; margin-top: 1rem;">
     ✅ Thank you! Redirecting to homepage...
   </div>
 </div>
+
+<style>
+  .contact-input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+  }
+
+  .contact-button {
+    padding: 0.7rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .contact-input {
+      background-color: #222;
+      color: #eee;
+      border: 1px solid #444;
+    }
+
+    .contact-button {
+      background-color: #666;
+    }
+  }
+</style>
 
 <script>
 document.getElementById("contact-form").addEventListener("submit", async function(e) {
