@@ -28,29 +28,27 @@
     font-size: 16px;
   }
 
-  /* Light theme */
-  @media (prefers-color-scheme: light) {
-    .form-field {
-      background-color: #fff;
-      color: #000;
-      border-color: #ccc;
-    }
-
-    .form-field::placeholder {
-      color: #666;
-    }
-
-    .submit-button {
-      background-color: #222;
-      color: #fff;
-    }
+  /* Default: light theme */
+  .form-field {
+    background-color: #fff;
+    color: #000;
+    border-color: #ccc;
   }
 
-  /* Dark theme */
+  .form-field::placeholder {
+    color: #666;
+  }
+
+  .submit-button {
+    background-color: #222;
+    color: #fff;
+  }
+
+  /* Override for dark theme */
   @media (prefers-color-scheme: dark) {
     .form-field {
-      background-color: #1c1c1c;
-      color: #eee;
+      background-color: #1a1a1a;
+      color: #fff;
       border-color: #444;
     }
 
@@ -60,7 +58,7 @@
 
     .submit-button {
       background-color: #fff;
-      color: #111;
+      color: #000;
     }
   }
 
