@@ -11,6 +11,19 @@ googleAnalytics = "G-4ZSQ0MJWVK"
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
 
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Bnjenga1"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/brian-mwaura1"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:briannjenga751@gmail.com"
+
+
 [params.profileMode]
   enabled = true
   name = "Brian Mwaura"
