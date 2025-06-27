@@ -39,12 +39,6 @@ googleAnalytics = "G-4ZSQ0MJWVK"
     name = "Blog"
     url = "/posts/"
 
-  [[params.profileMode.buttons]]
-    name = "GitHub"
-    url = "https://github.com/Bnjenga1"
-    post = "\" target=\"_blank"
-
-
 [[menu.main]]
   identifier = "about"
   name = "About Me"
