@@ -10,6 +10,9 @@ googleAnalytics = "G-4ZSQ0MJWVK"
   ShowShareButtons = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
+  env = "production"
+  description = "Portfolio of Brian Njenga Mwaura – Data Analyst, Statistician, AWS Certified, Python/R Enthusiast and Forex Analyst"
+  keywords = ["Brian Mwaura", "Data Analyst", "Freelancer", "Portfolio", "Statistics", "AWS", "Forex Analyst", "Python", "SPSS"]
 
   [[params.socialIcons]]
   name = "github"
