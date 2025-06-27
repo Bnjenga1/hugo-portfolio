@@ -6,8 +6,15 @@
     <description>Recent content on Brian Njenga Mwaura</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 12:00:00 +0300</lastBuildDate>
     <atom:link href="https://www.brianmwaura.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting a Professional Portfolio Website on AWS with Hugo</title>
+      <link>https://www.brianmwaura.com/projects/aws-cloud-solutions/aws-portfolio-site/</link>
+      <pubDate>Thu, 26 Jun 2025 12:00:00 +0300</pubDate>
+      <guid>https://www.brianmwaura.com/projects/aws-cloud-solutions/aws-portfolio-site/</guid>
+      <description>How I built and deployed my personal portfolio site using Hugo, AWS S3, CloudFront, Route 53, and GitHub Actions.</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>https://www.brianmwaura.com/posts/about-me/</link>

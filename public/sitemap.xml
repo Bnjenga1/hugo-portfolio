@@ -2,31 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.brianmwaura.com/tags/aws/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/projects/aws-cloud-solutions/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/tags/ci/cd/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/tags/cloudfront/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/tags/github-actions/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/projects/aws-cloud-solutions/aws-portfolio-site/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/tags/hugo/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/projects/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/tags/s3/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.brianmwaura.com/tags/</loc>
+    <lastmod>2025-06-26T12:00:00+03:00</lastmod>
+  </url><url>
     <loc>https://www.brianmwaura.com/tags/about/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brianmwaura.com/posts/about-me/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.brianmwaura.com/tags/aws/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brianmwaura.com/projects/aws-cloud-solutions/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brianmwaura.com/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.brianmwaura.com/tags/ec2/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.brianmwaura.com/projects/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.brianmwaura.com/posts/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brianmwaura.com/tags/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brianmwaura.com/tags/wordpress/</loc>
@@ -36,9 +54,6 @@
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brianmwaura.com/projects/aws-cloud-solutions/aws-s3-static-hosting/</loc>
-    <lastmod>2025-05-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brianmwaura.com/tags/s3/</loc>
     <lastmod>2025-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brianmwaura.com/tags/web-hosting/</loc>

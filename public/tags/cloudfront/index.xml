@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CloudFront on Brian Njenga Mwaura</title>
+    <link>https://www.brianmwaura.com/tags/cloudfront/</link>
+    <description>Recent content in CloudFront on Brian Njenga Mwaura</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 12:00:00 +0300</lastBuildDate>
+    <atom:link href="https://www.brianmwaura.com/tags/cloudfront/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting a Professional Portfolio Website on AWS with Hugo</title>
+      <link>https://www.brianmwaura.com/projects/aws-cloud-solutions/aws-portfolio-site/</link>
+      <pubDate>Thu, 26 Jun 2025 12:00:00 +0300</pubDate>
+      <guid>https://www.brianmwaura.com/projects/aws-cloud-solutions/aws-portfolio-site/</guid>
+      <description>How I built and deployed my personal portfolio site using Hugo, AWS S3, CloudFront, Route 53, and GitHub Actions.</description>
+    </item>
+  </channel>
+</rss>
