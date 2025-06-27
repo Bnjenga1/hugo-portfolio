@@ -14,13 +14,6 @@
     margin-bottom: 15px;
     border: 1px solid;
     font-size: 16px;
-    background-color: #fff;
-    color: #000;
-    border-color: #ccc;
-  }
-
-  .form-field::placeholder {
-    color: #666;
   }
 
   .submit-button {
@@ -29,8 +22,23 @@
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
-    background-color: #222;
-    color: #fff;
+  }
+
+  @media (prefers-color-scheme: light) {
+    .form-field {
+      background-color: #fff;
+      color: #000;
+      border-color: #ccc;
+    }
+
+    .form-field::placeholder {
+      color: #666;
+    }
+
+    .submit-button {
+      background-color: #222;
+      color: #fff;
+    }
   }
 
   @media (prefers-color-scheme: dark) {
@@ -72,7 +80,6 @@
 <script>
 document.getElementById("contact-form").addEventListener("submit", async function(e) {
   e.preventDefault();
-
   const form = e.target;
   const data = new FormData(form);
 
