@@ -7,7 +7,6 @@ categories: ["Data Analysis"]
 draft: false
 ---
 
-# 🏘️ Nairobi Real Estate Market Analysis
 
 This project explores a dataset of Nairobi property listings to uncover patterns in pricing based on location, property type, and features like bedrooms, bathrooms, and house size. The dataset was sourced from Kaggle and cleaned using pandas before performing exploratory data analysis (EDA) and predictive modeling.
 
