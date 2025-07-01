@@ -30,7 +30,7 @@ We performed the following steps:
 
 ### 🔹 Average Price by Location
 
-![Average Price by Location](/images/price_by_location.png)
+![Average Price by Location](/images/avg-price-by-location.png)
 
 The most expensive neighborhoods were:
 
@@ -51,7 +51,7 @@ This shows that townhouses, while fewer, dominate the upper market segment.
 
 ### 🔹 Bedrooms vs. Price
 
-![Average Price by Bedrooms](/images/Price_by_bedrooms.png)
+![Average Price by Bedrooms](/images/price-by-bedrooms.png)
 
 - Steady increase from **1 to 3 bedrooms**
 - **Sharp jump** at **4 bedrooms**
@@ -61,7 +61,7 @@ This shows that townhouses, while fewer, dominate the upper market segment.
 
 ### 🔹 Bathrooms vs. Price
 
-![Average Price by Bathrooms](/images/price_by_bathrooms.png)
+![Average Price by Bathrooms](/images/price-by-bathrooms.png)
 
 - Gradual rise from **1 to 2 bathrooms**
 - **Sharp increase** at **3 bathrooms**
