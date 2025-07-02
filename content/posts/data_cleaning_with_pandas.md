@@ -112,6 +112,6 @@ df.to_csv("nairobi_cleaned.csv", index=False)
 Data cleaning may not be the most glamorous part of data science, but it’s essential. Clean data leads to better analysis, more reliable models, and clearer insights.
 
 Want to see how I used this dataset in a real project?  
-👉 [Check out my Nairobi housing analysis project here](/projects/nairobi-real-estate)
+👉 [Check out my Nairobi housing analysis project here](/projects/data-analysis/nairobi_real_estate_analysis/)
 
 If you found this helpful, stay tuned for more beginner-friendly guides. You can also follow me on [LinkedIn](https://www.linkedin.com/in/brian-mwaura1/) or explore more on my [Projects](/projects) page.
