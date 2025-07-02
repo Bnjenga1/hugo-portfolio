@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Brian Njenga Mwaura</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.brianmwaura.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Beginner’s Guide to Data Cleaning Using Pandas</title>
+      <link>https://www.brianmwaura.com/posts/data_cleaning_with_pandas/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.brianmwaura.com/posts/data_cleaning_with_pandas/</guid>
+      <description>Learn how to clean messy datasets using pandas with real examples from a Nairobi real estate dataset.</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>https://www.brianmwaura.com/posts/about-me/</link>

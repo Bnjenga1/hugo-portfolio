@@ -6,6 +6,21 @@
     <description>Recent content in Data Analysis on Brian Njenga Mwaura</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.brianmwaura.com/projects/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🧑‍🤝‍🧑 UK Customer Segmentation</title>
+      <link>https://www.brianmwaura.com/projects/data-analysis/customer_segmentation/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.brianmwaura.com/projects/data-analysis/customer_segmentation/</guid>
+      <description>Behavioral segmentation of UK-based online retail customers using RFM features and unsupervised learning</description>
+    </item>
+    <item>
+      <title>🏘️ Nairobi Real Estate Market Analysis</title>
+      <link>https://www.brianmwaura.com/projects/data-analysis/nairobi_real_estate_analysis/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.brianmwaura.com/projects/data-analysis/nairobi_real_estate_analysis/</guid>
+      <description>Analyzing Nairobi real estate listings to uncover pricing trends and build a predictive model</description>
+    </item>
   </channel>
 </rss>

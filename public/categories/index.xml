@@ -6,6 +6,21 @@
     <description>Recent content in Categories on Brian Njenga Mwaura</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.brianmwaura.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Science Blog</title>
+      <link>https://www.brianmwaura.com/categories/data-science-blog/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.brianmwaura.com/categories/data-science-blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Analysis</title>
+      <link>https://www.brianmwaura.com/categories/data-analysis/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.brianmwaura.com/categories/data-analysis/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
