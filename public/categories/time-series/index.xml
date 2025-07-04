@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Time Series on Brian Njenga Mwaura</title>
+    <link>https://www.brianmwaura.com/categories/time-series/</link>
+    <description>Recent content in Time Series on Brian Njenga Mwaura</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.brianmwaura.com/categories/time-series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📈 Nasdaq Volatility Forecasting with GARCH</title>
+      <link>https://www.brianmwaura.com/projects/data-analysis/nasdaq-volatility-forecasting/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.brianmwaura.com/projects/data-analysis/nasdaq-volatility-forecasting/</guid>
+      <description>Forecasting future market volatility using a GARCH(1,1) model on Nasdaq (^IXIC) returns</description>
+    </item>
+  </channel>
+</rss>
