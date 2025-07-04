@@ -69,10 +69,10 @@ This created a basic statistical trading rule based on extreme deviation from ex
 
 ## Insights
 
-- ✅ Most prices stayed inside the 90% cone — a sign that the GARCH forecast captured realistic risk.
-- 📉 Only a few buy/sell signals were triggered — consistent with conservative statistical strategies.
-- 🧠 Confidence intervals expand with time — showing how uncertainty grows in longer forecasts.
-- 🔄 The approach is symmetric and agnostic to direction — it only reacts to large deviations, not trends.
+- ✅ Most prices stayed inside the 90% cone - a sign that the GARCH forecast captured realistic risk.
+- 📉 Only a few buy/sell signals were triggered - consistent with conservative statistical strategies.
+- 🧠 Confidence intervals expand with time - showing how uncertainty grows in longer forecasts.
+- 🔄 The approach is symmetric and agnostic to direction - it only reacts to large deviations, not trends.
 
 ---
 
@@ -99,4 +99,4 @@ model.forecast_volatility(horizon=30)
 model.plot_forecast()
 ```
 
-[🔗 View notebook and source code on GitHub](https://github.com/Bnjenga1/nasdaq-volatility-garch)
+[🔗 View notebook and source code on GitHub](https://github.com/Bnjenga1/nasdaq-volatility-garch/volatility_forecasting.ipynb)
