@@ -99,4 +99,4 @@ model.forecast_volatility(horizon=30)
 model.plot_forecast()
 ```
 
-[🔗 View notebook and source code on GitHub](https://github.com/Bnjenga1/nasdaq-volatility-garch/volatility_forecasting.ipynb)
+[🔗 View notebook and source code on GitHub](https://github.com/Bnjenga1/nasdaq-volatility-garch/blob/main/volatility_forecasting.ipynb)
