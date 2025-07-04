@@ -29,7 +29,7 @@ The project includes:
 - Rolling 30-day volatility spikes during market drops.
 - Calm price trends are usually matched by low volatility.
 
-![price_vs_volatility](/image/price_vs_volatility.png)
+![price_vs_volatility](/images/price_vs_volatility.png)
 
 ---
 
@@ -37,7 +37,7 @@ The project includes:
 
 The GARCH model captures persistence in volatility and forecasts a slight increase in the coming days:
 
-![garch_forecast](/image/garch_forecast.png)
+![garch_forecast](/images/garch_forecast.png)
 
 ---
 
@@ -49,7 +49,7 @@ Using the GARCH forecast, we simulated 500 possible future price paths to visual
 - The average path stays relatively flat (no return drift).
 - The shaded region represents the 90% confidence band (5th to 95th percentile).
 
-![simulated_paths](/image/simulated_paths.png)
+![simulated_paths](/images/simulated_paths.png)
 
 ---
 
@@ -63,7 +63,7 @@ We compared recent actual prices to the simulated volatility cone:
 
 This created a basic statistical trading rule based on extreme deviation from expected price movement.
 
-![trade_signals](/image/trade_signals.png)
+![trade_signals](/images/trade_signals.png)
 
 ---
 

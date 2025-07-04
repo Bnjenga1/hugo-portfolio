@@ -236,11 +236,11 @@
 <li>Rolling 30-day volatility spikes during market drops.</li>
 <li>Calm price trends are usually matched by low volatility.</li>
 </ul>
-<p><img alt="price_vs_volatility" loading="lazy" src="/image/price_vs_volatility.png"></p>
+<p><img alt="price_vs_volatility" loading="lazy" src="/images/price_vs_volatility.png"></p>
 <hr>
 <h3 id="-30-day-forecasted-daily-volatility-garch">✅ 30-Day Forecasted Daily Volatility (GARCH)<a hidden class="anchor" aria-hidden="true" href="#-30-day-forecasted-daily-volatility-garch">#</a></h3>
 <p>The GARCH model captures persistence in volatility and forecasts a slight increase in the coming days:</p>
-<p><img alt="garch_forecast" loading="lazy" src="/image/garch_forecast.png"></p>
+<p><img alt="garch_forecast" loading="lazy" src="/images/garch_forecast.png"></p>
 <hr>
 <h2 id="-simulating-future-price-paths">📊 Simulating Future Price Paths<a hidden class="anchor" aria-hidden="true" href="#-simulating-future-price-paths">#</a></h2>
 <p>Using the GARCH forecast, we simulated 500 possible future price paths to visualize the uncertainty over a 30-day horizon.</p>
@@ -249,7 +249,7 @@
 <li>The average path stays relatively flat (no return drift).</li>
 <li>The shaded region represents the 90% confidence band (5th to 95th percentile).</li>
 </ul>
-<p><img alt="simulated_paths" loading="lazy" src="/image/simulated_paths.png"></p>
+<p><img alt="simulated_paths" loading="lazy" src="/images/simulated_paths.png"></p>
 <hr>
 <h2 id="-trade-signal-generation">📈 Trade Signal Generation<a hidden class="anchor" aria-hidden="true" href="#-trade-signal-generation">#</a></h2>
 <p>We compared recent actual prices to the simulated volatility cone:</p>
@@ -259,7 +259,7 @@
 <li><strong>Hold</strong> if it stays within.</li>
 </ul>
 <p>This created a basic statistical trading rule based on extreme deviation from expected price movement.</p>
-<p><img alt="trade_signals" loading="lazy" src="/image/trade_signals.png"></p>
+<p><img alt="trade_signals" loading="lazy" src="/images/trade_signals.png"></p>
 <hr>
 <h2 id="insights">Insights<a hidden class="anchor" aria-hidden="true" href="#insights">#</a></h2>
 <ul>
