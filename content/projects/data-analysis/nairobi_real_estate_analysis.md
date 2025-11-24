@@ -7,7 +7,7 @@ categories: ["Data Analysis"]
 draft: false
 
 cover:
-  image: "/images/data-analysis/nairobi-real-estate.png
+  image: "/images/data-analysis/nairobi-real-estate.png"
 ---
 
 
