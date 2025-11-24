@@ -53,6 +53,9 @@ googleAnalytics = "G-4ZSQ0MJWVK"
     url = "/contact/"
     weight = 2
 
+[params.assets]
+  css = ["css/projects.css"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

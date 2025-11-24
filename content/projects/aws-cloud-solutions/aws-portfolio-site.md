@@ -3,6 +3,7 @@ title: "Hosting a Professional Portfolio Website on AWS with Hugo"
 date: 2025-06-26T12:00:00+03:00
 tags: ["AWS", "S3", "CloudFront", "Hugo", "CI/CD", "GitHub Actions"]
 description: "How I built and deployed my personal portfolio site using Hugo, AWS S3, CloudFront, Route 53, and GitHub Actions."
+cover: "/images/aws-web-hosting.png"
 draft: false
 ---
 

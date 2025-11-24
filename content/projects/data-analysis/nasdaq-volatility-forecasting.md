@@ -4,6 +4,7 @@ date: 2025-07-04
 description: "Forecasting future market volatility using a GARCH(1,1) model on Nasdaq (^IXIC) returns"
 tags: ["volatility forecasting", "GARCH", "finance", "Python", "simulation", "trading"]
 categories: ["Time Series", "Finance"]
+cover: "/images/data-analysis/nasdaq.png"
 draft: false
 ---
 
