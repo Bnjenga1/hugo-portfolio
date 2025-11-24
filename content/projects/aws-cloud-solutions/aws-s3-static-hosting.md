@@ -3,9 +3,8 @@ title: "🌐 Hosting a Static Website on AWS S3"
 date: 2025-05-10
 tags: ["AWS", "S3", "Web Hosting"]
 draft: false
-
-[cover]
-image = "/images/aws-s3-cover.png"
+cover:
+  image: "/images/aws/aws-s3-cover.png"
 ---
 
 📝 **Project Overview**  

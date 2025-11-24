@@ -4,8 +4,8 @@ date: 2025-06-19
 tags: ["AWS", "EC2", "WordPress"]
 draft: false
 
-[cover]
-image = "/images/aws/ec2-wordpress.png"
+cover:
+  image: "/images/aws/ec2-wordpress.png"
 ---
 
 This project documents how I hosted a WordPress blog on an AWS EC2 instance using the free tier. I manually set up Apache, PHP, MariaDB, and WordPress on an Amazon Linux 2023 instance.

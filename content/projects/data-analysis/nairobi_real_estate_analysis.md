@@ -6,8 +6,8 @@ tags: ["data analysis", "real estate", "Nairobi", "Python", "EDA", "regression"]
 categories: ["Data Analysis"]
 draft: false
 
-[cover]
-image = "/images/data-analysis/nairobi-real-estate.png
+cover:
+  image: "/images/data-analysis/nairobi-real-estate.png
 ---
 
 

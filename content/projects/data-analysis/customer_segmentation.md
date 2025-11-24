@@ -6,8 +6,8 @@ tags: ["customer segmentation", "clustering", "K-Means", "RFM", "data analysis"]
 categories: ["Data Analysis"] 
 draft: false
 
-[cover]
-image = "/images/data-analysis/uk-customer-segmentation.png"
+cover:
+  image: "/images/data-analysis/uk-customer-segmentation.png"
 ---
 
 ## 🧠 Objective

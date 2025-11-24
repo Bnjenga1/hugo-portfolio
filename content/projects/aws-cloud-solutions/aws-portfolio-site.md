@@ -4,9 +4,8 @@ date: 2025-06-26T12:00:00+03:00
 tags: ["AWS", "S3", "CloudFront", "Hugo", "CI/CD", "GitHub Actions"]
 description: "How I built and deployed my personal portfolio site using Hugo, AWS S3, CloudFront, Route 53, and GitHub Actions."
 draft: false
-
-[cover]
-image = "/images/aws-web-hosting.png"
+cover:
+  image: "/images/aws/aws-web-hosting.png"
 ---
 
 I built and deployed this portfolio website to showcase my projects and experience as a data analyst and cloud enthusiast. The site is powered by Hugo (a fast static site generator) and hosted entirely on AWS. It features a professional contact form, clean layout, dark/light theme support, and fully automated deployment.

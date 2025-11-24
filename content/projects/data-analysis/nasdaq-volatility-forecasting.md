@@ -6,8 +6,8 @@ tags: ["volatility forecasting", "GARCH", "finance", "Python", "simulation", "tr
 categories: ["Time Series", "Finance"]
 draft: false
 
-[cover]
-image = "/images/data-analysis/nasdaq.png"
+cover:
+  image: "/images/data-analysis/nasdaq.png"
 ---
 
 ## Project Overview
