@@ -4,8 +4,10 @@ date: 2025-06-29
 description: "Analyzing Nairobi real estate listings to uncover pricing trends and build a predictive model"
 tags: ["data analysis", "real estate", "Nairobi", "Python", "EDA", "regression"]
 categories: ["Data Analysis"]
-cover: "/images/data-analysis/nairobi-real-estate.png"
 draft: false
+
+[cover]
+image = "/images/data-analysis/nairobi-real-estate.png
 ---
 
 

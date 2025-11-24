@@ -3,9 +3,11 @@ title: "🧑‍🤝‍🧑 UK Customer Segmentation"
 date: 2025-06-30
 description: "Behavioral segmentation of UK-based online retail customers using RFM features and unsupervised learning"
 tags: ["customer segmentation", "clustering", "K-Means", "RFM", "data analysis"]
-categories: ["Data Analysis"]
-cover: "/images/data-analysis/uk-customer-segmentation.png" 
+categories: ["Data Analysis"] 
 draft: false
+
+[cover]
+image = "/images/data-analysis/uk-customer-segmentation.png"
 ---
 
 ## 🧠 Objective
