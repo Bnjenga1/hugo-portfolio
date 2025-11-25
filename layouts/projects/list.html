@@ -4,7 +4,7 @@
 <div class="project-grid">
     {{ range .Pages }}
     <a href="{{ .RelPermalink }}" class="project-item">
-        <div class="project-image" style="background-image: url('{{ .Params.cover }}');">
+        <div class="project-image" style="background-image: url('{{ .Params.cover.image }}');">
             <div class="project-overlay">
                 <h2>{{ .Title }}</h2>
             </div>
